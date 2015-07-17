@@ -449,11 +449,11 @@ ul button.active {
   height: 38px;
 }
 button[disabled]{
-    opacity: 0.1;
-    background-color: none !important;
+	opacity: 0.1;
+	background-color: none !important;
 }
 .controls button[disabled]:active{
-    background-color: none !important;
+	background-color: none !important;
 }
 .controls button.add {
   background: url(./lib/img/icon_insert.png) no-repeat center center;
