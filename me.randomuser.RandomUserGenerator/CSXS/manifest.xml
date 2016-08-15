@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ExtensionManifest Version="4.0" ExtensionBundleId="me.randomuser.RandomUserGenerator" ExtensionBundleVersion="3.0.0"
+<ExtensionManifest Version="4.0" ExtensionBundleId="me.randomuser.RandomUserGenerator" ExtensionBundleVersion="3.0.1"
 		ExtensionBundleName="RandomUserGenerator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Author>
-		<![CDATA[Keith Armstrong]]>
-	</Author>	<Contact mailto="support@randomapi.com"/>	<Legal href="https://randomuser.me/copyright">
+		<![CDATA[RandomAPI]]>
+	</Author>	<Contact mailto="keith@randomapi.com"/>	<Legal href="http://randomuser.me/copyright">
 		<![CDATA[Copyright Notice
 All randomly generated photos are copyrighted under a Creative Commons BY-NC-SA 4.0. These photos were hand picked from Greg Peverill-Conti's 1,000 faces project.
 
@@ -26,7 +26,7 @@ No warranties are given. The license may not give you all of the permissions nec
 
 Have Questions?
 If you are unsure about our licensing or have questions left un-answered, send an email to support@randomuser.me]]>
-	</Legal>	<Abstract href="https://randomuser.me">
+	</Legal>	<Abstract href="http://randomuser.me">
 		<![CDATA[Random User Generator (https://randomuser.me)
 Powered by RandomAPI (https://randomapi.com)
 
@@ -34,12 +34,12 @@ A free API for generating random user data. Like Lorem Ipsum, but for people.
 
 Want to contribute? Visit our Github: https://github.com/randomapi]]>
 	</Abstract>	<ExtensionList>
-		<Extension Id="me.randomuser.RandomUserGenerator" Version="3.0.0" />
+		<Extension Id="me.randomuser.RandomUserGenerator.extension1" Version="3.0.1" />
 	</ExtensionList>
 	<ExecutionEnvironment>
 		<HostList>
-			<Host Name="PHXS" Version="[14.0,16.9]" />
-			<Host Name="PHSP" Version="[14.0,16.9]" />
+			<Host Name="PHSP" Version="[14.0,17.9]" />
+			<Host Name="PHXS" Version="[14.0,17.9]" />
 		</HostList>
 		<LocaleList>
 			<Locale Code="All" />
@@ -50,7 +50,7 @@ Want to contribute? Visit our Github: https://github.com/randomapi]]>
 		</RequiredRuntimeList>
 	</ExecutionEnvironment>
 	<DispatchInfoList>
-		<Extension Id="me.randomuser.RandomUserGenerator">
+		<Extension Id="me.randomuser.RandomUserGenerator.extension1">
 			<DispatchInfo >
 				<Resources>
 				<MainPath>./index.html</MainPath>
